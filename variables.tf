@@ -1,6 +1,6 @@
 variable "vpc_id" {
   description = "The VPC ID where the SSM Endpoint will be deployed."
-  type = "string"
+  type = string
 }
 
 variable "endpoint_tags" {
